@@ -1,0 +1,48 @@
+name: Build CineRead APK
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Build Web App
+        run: |
+          npm install
+          npm run build
+
+      - name: Convert to Android & Build APK
+        run: |
+          yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses || true
+          WEB_DIR="dist"
+          if [ -d "build" ]; then WEB_DIR="build"; fi
+          npm install @capacitor/core @capacitor/cli @capacitor/android
+          npx cap init "CineRead" "com.alnedaree.cineread" --web-dir "$WEB_DIR"
+          npx cap add android
+          npx cap sync android
+          cd android
+          chmod +x gradlew
+          ./gradlew assembleDebug
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: cineread-debug
+          path: android/app/build/outputs/apk/debug/*.apk

@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">أثير الأخبار</string>
+
+    <!-- Navigation -->
+    <string name="nav_live">البث المباشر</string>
+    <string name="nav_channels">القنوات</string>
+    <string name="nav_schedule">البرامج</string>
+    <string name="nav_studio">الأستوديو</string>
+
+    <!-- Live Broadcast -->
+    <string name="badge_on_air">مباشر • ON AIR</string>
+    <string name="badge_standby">جاهز للبث</string>
+    <string name="badge_google_ai_voice">Google AI Voice</string>
+    <string name="badge_device_tts">الصوت المحلي</string>
+    <string name="label_breaking_news">عاجل</string>
+    <string name="action_start_broadcast">ابدأ البث المباشر</string>
+    <string name="action_pause_broadcast">إيقاف مؤقت</string>
+    <string name="action_resume_broadcast">استئناف البث</string>
+    <string name="action_breaking_flash">تحديث عاجل</string>
+    <string name="action_next_turn">الفقرة التالية</string>
+    <string name="action_prev_turn">الفقرة السابقة</string>
+    <string name="label_auto_broadcast">بث تلقائي مستمر 24/7</string>
+    <string name="label_channel_dial">موجات القنوات السريعة</string>
+    <string name="label_live_teleprompter">نص البث المباشر</string>
+    <string name="label_speaking_now">يتحدث الآن</string>
+    <string name="label_up_next">الفقرة القادمة</string>
+    <string name="status_fetching_news">جاري رصد الأخبار اليومية والعاجلة من القنوات…</string>
+    <string name="status_producing_script">رئيس التحرير الذكي يرتب فقرات البرنامج والمذيعين…</string>
+    <string name="status_synthesizing_voice">توليد صوت المذيع عبر Google AI Voice…</string>
+    <string name="action_retry">إعادة المحاولة</string>
+
+    <!-- Channels -->
+    <string name="title_channels">قنوات أثير الإخبارية</string>
+    <string name="subtitle_channels">اختر قناة للبث التلقائي أو أنشئ إذاعتك الذكية المخصصة</string>
+    <string name="action_create_channel">قناة ذكية جديدة</string>
+    <string name="dialog_create_channel_title">إنشاء قناة إخبارية ذكية</string>
+    <string name="label_channel_name">اسم القناة</string>
+    <string name="hint_channel_name">مثال: أثير الذكاء وريادة الأعمال</string>
+    <string name="label_channel_topic">المجالات والأخبار التي تتابعها القناة</string>
+    <string name="hint_channel_topic">مثال: أخبار الذكاء الاصطناعي، الشركات الناشئة العربية، والأسواق العالمية</string>
+    <string name="action_save_channel">إنشاء وتشغيل القناة</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_tune_in">استمع الآن</string>
+    <string name="label_tuned_in">قيد الاستماع</string>
+
+    <!-- Schedule & Archive -->
+    <string name="title_schedule">جدول البرامج والنشرة الحالية</string>
+    <string name="tab_current_rundown">فقرات النشرة</string>
+    <string name="tab_daily_schedule">خريطة البث اليومي</string>
+    <string name="tab_archive">أرشيف النشرات</string>
+    <string name="label_news_sources">المصادر الإخبارية المرصودة</string>
+    <string name="empty_rundown_title">لم تبدأ نشرة بعد</string>
+    <string name="empty_rundown_desc">اضغط على بدء البث المباشر ليقوم الذكاء الاصطناعي برصد أخبار اليوم وإعداد برنامج إذاعي متكامل.</string>
+    <string name="empty_archive_title">الأرشيف فارغ حالياً</string>
+    <string name="empty_archive_desc">تُحفظ هنا كل النشرات الإخبارية والبرامج التي أعدّها الذكاء الاصطناعي لإعادة الاستماع إليها في أي وقت.</string>
+
+    <!-- Studio & Anchors -->
+    <string name="title_studio">الأستوديو والمذيعون</string>
+    <string name="subtitle_studio">فريق المذيعين المرتبط بمحرك Google AI Voice وإعدادات البث</string>
+    <string name="section_anchors">طاقم المذيعين الذكي</string>
+    <string name="action_test_voice">اختبار الصوت</string>
+    <string name="label_testing_voice">جاري التجربة…</string>
+    <string name="section_broadcast_style">أسلوب التقديم الإذاعي</string>
+    <string name="style_formal_title">نشرة إخبارية رسمية</string>
+    <string name="style_formal_desc">لغة عربية فصحى رصينة وتغطية مركّزة للعاجل والتقارير.</string>
+    <string name="style_podcast_title">حوار بودكاست تفاعلي</string>
+    <string name="style_podcast_desc">نقاش حيوي بين المذيعين وتحليل معمّق لخلفيات الأخبار.</string>
+    <string name="style_rapid_title">موجز سريع ومكثف</string>
+    <string name="style_rapid_desc">عناوين سريعة ومتلاحقة لأهم ما جرى خلال الساعة.</string>
+    <string name="section_automation">إعدادات البث والصوت</string>
+    <string name="setting_auto_dj_title">البث التلقائي المستمر</string>
+    <string name="setting_auto_dj_desc">إعداد نشرة جديدة تلقائياً فور انتهاء البرنامج الحالي</string>
+    <string name="setting_chime_title">الفاصل الإذاعي الصوتي</string>
+    <string name="setting_chime_desc">نغمة أستوديو هادئة عند بداية النشرات والأخبار العاجلة</string>
+    <string name="setting_fallback_title">البديل الصوتي المحلي عند انقطاع الشبكة</string>
+    <string name="setting_fallback_desc">استخدام الصوت المدمج تلقائياً فقط إذا تعذر الاتصال بـ Google AI Voice</string>
+    <string name="setting_dark_theme_title">وضع الأستوديو الليلي</string>
+    <string name="setting_dark_theme_desc">ألوان الأستوديو الداكنة المريحة للاستماع الليلي</string>
+
+    <!-- Category Selection -->
+    <string name="title_category_selection">خصّص نشرتك الإخبارية</string>
+    <string name="subtitle_category_selection">اختر المجالات التي تهمك ليقوم الذكاء الاصطناعي بمتابعتها وترتيب بثك الإذاعي اليومي وفق اهتماماتك.</string>
+    <string name="action_customize_categories">تخصيص التصنيفات</string>
+    <string name="action_apply_categories">حفظ وتشغيل البث المخصّص</string>
+    <string name="action_save_categories_only">حفظ فقط</string>
+    <string name="action_select_all">تحديد الكل</string>
+    <string name="action_reset_defaults">الافتراضي</string>
+    <string name="label_selected_categories_prefix">اهتمامات بثك:</string>
+    <string name="hint_select_at_least_one">اختر تصنيفاً واحداً على الأقل</string>
+
+    <!-- Live Arabic YouTube TV & Radio -->
+    <string name="nav_live_tv">مباشر يوتيوب</string>
+    <string name="title_live_tv">القنوات الإخبارية العربية المباشرة</string>
+    <string name="subtitle_live_tv">بث حي عبر يوتيوب — اختر المشاهدة بالفيديو أو الاستماع كإذاعة صوتية</string>
+    <string name="mode_video">مشاهدة فيديو</string>
+    <string name="mode_radio_audio">إذاعة صوت فقط</string>
+    <string name="action_open_youtube">فتح في يوتيوب</string>
+    <string name="action_reload_stream">تحديث البث</string>
+    <string name="action_add_yt_channel">إضافة قناة يوتيوب</string>
+    <string name="dialog_add_yt_title">إضافة قناة إخبارية من يوتيوب</string>
+    <string name="hint_yt_channel_name">مثال: قناة العربية الحدث</string>
+    <string name="hint_yt_channel_link">رابط القناة أو البث المباشر أو @handle</string>
+    <string name="label_radio_mode_active">وضع الإذاعة الصوتية نشط • البث الحي مستمر بالصوت</string>
+</resources>

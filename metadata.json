@@ -1,0 +1,6 @@
+{
+  "name": "أثير الأخبار",
+  "description": "راديو إخباري ذكي وبودكاست متعدد القنوات يتابع الأخبار اليومية والعاجلة ويبثها تلقائياً بأصوات مذيعين بالذكاء الاصطناعي.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
